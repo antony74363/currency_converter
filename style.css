@@ -5,12 +5,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #b8307c, #4a3f6d);
+    background: #333333;  /* fallback for old browsers */
+    background: linear-gradient(to top, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     overflow: hidden;
 }
 
 .container{
-    background-color: white;
+    background-color: rgba(0,0,0,0.7);
     width: 470px;
     height: 360px;
     padding: 70px;
@@ -20,7 +22,7 @@ body {
 }
 
 .heading{
-    color: #46406c;
+    color: #b40000;
     text-align: center;
     text-transform: uppercase;
     font-size: 2.8rem;
@@ -84,12 +86,12 @@ body {
     height: 50px;
     text-align: center;
     color: #fff;
-    background-color: #46406c;
+    background-color: #b40000;
     outline: none;
     border: none;
     border-radius: 5px;
 }
 
 .result:active{
-    background-color: #342f52;
+    background-color: #690000;
 }
