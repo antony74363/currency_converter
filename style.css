@@ -5,9 +5,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #333333;  /* fallback for old browsers */
-    background: linear-gradient(to top, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #215f00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e4e4d9, #215f00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     overflow: hidden;
 }
 
@@ -22,7 +23,7 @@ body {
 }
 
 .heading{
-    color: #b40000;
+    color: #06b400;
     text-align: center;
     text-transform: uppercase;
     font-size: 2.8rem;
@@ -39,6 +40,7 @@ body {
 .rate2{
     margin-top: 0.5rem;
     font-size: 1.5rem;
+    color: #848484;
 }
 
 .main{
@@ -86,12 +88,12 @@ body {
     height: 50px;
     text-align: center;
     color: #fff;
-    background-color: #b40000;
+    background-color: #06b400;
     outline: none;
     border: none;
     border-radius: 5px;
 }
 
 .result:active{
-    background-color: #690000;
+    background-color: #076900;
 }
